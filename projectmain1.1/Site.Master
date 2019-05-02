@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="projectmain1._1.Site" %>
 <%@ Register Src="~/Pages/Admin/Controls/AdminVerify.ascx" TagPrefix="uc1" TagName="AdminVerify" %>
+
+<!-- This is the customers and admin master page that will be on the defualt page in order for the admin to go to their login page and to show the name of the business -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -34,12 +37,13 @@
                 <asp:ScriptReference Name="WebFormsBundle" />
             </Scripts>
         </asp:ScriptManager>
+         <!--This is the design of the master page which is the name of the business and admin login button -->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                    <nav class="text-success">
-                    <h1>Milas Barbers</h1></nav>
-                   <a href="pages/admin/AdminHome.aspx" class="btn btn-success">Admin</a> <a class="btn btn-primary "  href="/"><i class="fas fa-home"></i> &raquo;</a>
+                    <h1>Milas Hair Salon</h1></nav>
+                   <a href="pages/admin/AdminHome.aspx" class="btn btn-success">Admin</a>
                 </div>
             </div>
         </div>

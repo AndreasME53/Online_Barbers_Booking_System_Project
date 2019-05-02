@@ -163,9 +163,8 @@
     <Content Include="Pages\Admin\Services.aspx" />
     <Content Include="Pages\Booking\CheckOut.aspx" />
     <Content Include="Pages\Booking\Controls\Checkout.ascx" />
-    <Content Include="Pages\Booking\Controls\ViewBooking.ascx" />
     <Content Include="Pages\Booking\CreateBooking.aspx" />
-    <Content Include="Pages\Booking\ViewBookings.aspx" />
+    <Content Include="Pages\Booking\Location.aspx" />
     <Content Include="Pages\Controls\BookingDetail.ascx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -296,7 +295,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="HelivacIncidentServices\Incident.cs" />
     <Compile Include="Pages\Admin\AddService.aspx.cs">
       <DependentUpon>AddService.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -395,13 +393,6 @@
     <Compile Include="Pages\Booking\Controls\Checkout.ascx.designer.cs">
       <DependentUpon>Checkout.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Booking\Controls\ViewBooking.ascx.cs">
-      <DependentUpon>ViewBooking.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Booking\Controls\ViewBooking.ascx.designer.cs">
-      <DependentUpon>ViewBooking.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Pages\Booking\CreateBooking.aspx.cs">
       <DependentUpon>CreateBooking.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -409,12 +400,12 @@
     <Compile Include="Pages\Booking\CreateBooking.aspx.designer.cs">
       <DependentUpon>CreateBooking.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Booking\ViewBookings.aspx.cs">
-      <DependentUpon>ViewBookings.aspx</DependentUpon>
+    <Compile Include="Pages\Booking\Location.aspx.cs">
+      <DependentUpon>Location.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Booking\ViewBookings.aspx.designer.cs">
-      <DependentUpon>ViewBookings.aspx</DependentUpon>
+    <Compile Include="Pages\Booking\Location.aspx.designer.cs">
+      <DependentUpon>Location.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Controls\BookingDetail.ascx.cs">
       <DependentUpon>BookingDetail.ascx</DependentUpon>

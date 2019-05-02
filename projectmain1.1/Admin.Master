@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="projectmain1._1.Admin" %>
-
+<!-- This is the admin site/master page that will be on each of the admins pages in order for them to move around from one page to another and logout of their account -->
 
 <!DOCTYPE html>
 
@@ -42,12 +42,12 @@
                 <asp:ScriptReference Name="WebFormsBundle" />
             </Scripts>
         </asp:ScriptManager>
-
+        <!--This is the design of the master page which is the name of the business, a logout button and admin home button, which looks like a home icon -->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                    <nav class="text-success">
-                    <h1>Milas Barbers</h1><a class="btn btn-danger "  href="/"><i class="log out"></i> Log out &raquo;</a> <a class="btn btn-primary"  href="/pages/admin/AdminHome"><i class="fas fa-home"></i> &raquo;</a></nav>
+                    <h1>Milas Hair Salon</h1><a class="btn btn-danger "  href="/"><i class="log out"></i> Log out &raquo;</a> <a class="btn btn-primary"  href="/pages/admin/AdminHome"><i class="fas fa-home"></i> &raquo;</a></nav>
                 </div>
             </div>
         </div>

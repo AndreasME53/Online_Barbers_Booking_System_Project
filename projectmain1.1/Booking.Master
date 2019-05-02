@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="projectmain1._1.Booking" %>
+<!-- This is the customers site/master page that will be on each of the customers pages in order for them to move around from one page and back to the home defualt page -->
 
 <!DOCTYPE html>
 
@@ -36,11 +37,12 @@
                 <asp:ScriptReference Name="WebFormsBundle" />
             </Scripts>
         </asp:ScriptManager>
+        <!--This is the design of the master page which is the name of the business and defualt home button ,which looks like a home icon ,for the user to press in order to go home-->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="bg-light container">
                 <div class="navbar-header">
                     <nav class="text-success ">
-                        <h1 >Milas Barbers</h1></nav>
+                        <h1 >Milas Hair Salon</h1></nav>
                     <a class="btn btn-primary "  href="/"><i class="fas fa-home"></i> &raquo;</a>
                 </div>
             </div>

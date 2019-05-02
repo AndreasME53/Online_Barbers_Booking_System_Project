@@ -5,13 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace projectmain1._1
+namespace projectmain1._1.Pages.Booking
 {
-    public partial class _Default : Page
+    public partial class Location : System.Web.UI.Page
     {
-        
-       
-
         protected void Page_Load(object sender, EventArgs e)
         {
 

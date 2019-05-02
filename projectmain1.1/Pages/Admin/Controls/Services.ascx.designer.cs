@@ -13,15 +13,6 @@ namespace projectmain1._1.Pages.Admin.Controls {
     public partial class Services {
         
         /// <summary>
-        /// lblResults02 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResults02;
-        
-        /// <summary>
         /// ItemsList control.
         /// </summary>
         /// <remarks>
@@ -47,5 +38,14 @@ namespace projectmain1._1.Pages.Admin.Controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hidID;
+        
+        /// <summary>
+        /// lblErrorMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorMessage;
     }
 }

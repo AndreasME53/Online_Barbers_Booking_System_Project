@@ -1,4 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ServiceDetails.ascx.cs" Inherits="projectmain1._1.Pages.Admin.Controls.ServiceDetails" %>
+<!--This will be the html for the form of the services, which will let the admin to fill out inorder to create a new service or update/edit a service -->
 <style type="text/css">
     .auto-style1 {
         width: 291px;
@@ -21,12 +22,13 @@
         width: 424px;
         height: 39px;
     }
-</style>
+</style><!--this is the heading of the "Add Services " webpage -->
 <h4 class="mb-3">
     <asp:Label ID="lblHeading" runat="server" Text="Add Services"></asp:Label>
 </h4>
 <div class="row">
-
+    <!--This will be the design of the form for the services to be added or updated to the database. It will ask for the services name, which gender is it offerd to, price, created by, Effective date and enabled in order for the customers to choose it or not. In Addition I have made the Service name, Gender, Price and created by fields mandatory becuase those fielded need to be meet in order for the service to be stored properly in the database. Effective date and enabled are not mandatory because the admin can come back later to activate and set the date whenever they choose to  -->
+    <!--The form will change if the admin is updating a service. When the admin clicks on the update button the form will be filled with the correct service information ,that they are updating, and the heading will change to "Update Service" and the created by lable will change to modified. As the database will keep a record of the people who has modified the service and who has added a service as all databases should--> 
     <table class="table">
         <tr>
             <td nowrap class="auto-style4">
@@ -99,8 +101,11 @@
 </div>
 <hr class="mb-4">
 
-<asp:Button ID="btnAdd" runat="server" CssClass="btn btn-lg btn-success" OnClick="btnAdd_Click" Text="Complete" type="submit"/>
+<asp:Button ID="btnAdd" runat="server" CssClass="btn btn-lg btn-success" OnClick="btnAdd_Click" Text="Complete" type="submit"/><!--once the form has been correctly fill out this button will the pass the filled fields to databsae to be stored and accessed in a later date -->
+<asp:HiddenField ID="hidPrice" runat="server" /><!--this for when the user cahngers the price -->
+<asp:HiddenField ID="hidID" runat="server" /><!--This allow the service form to change for the "add service" form to "update service" form and "created by" field into "modifiled by" field  --> 
+<!-- I made the form do this because i wanted to re use my code and make the project more effiecent as it takes upless space and moves at a faster pace -->
+<div class="col-md-6"><asp:Label runat="server" ID="lblErrorMessage" cvlass="danger"></asp:Label><!--Incase of any errors this will display them -->
 
-<asp:HiddenField ID="hidID" runat="server" />
-<!-- this for reusing -->
+</div>
 <hr class="mb-4">

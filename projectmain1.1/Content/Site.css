@@ -31,16 +31,21 @@ textarea {
 }
 
 .menu_image {
-   
 }
-.mandatory{
-    border-color:darkgrey;
+
+.mandatory {
+    border-color: darkgrey;
 }
 
 .required_field {
     color: red;
 }
 
-th{
-    text-align:left;
+th {
+    text-align: left;
+   
+}
+
+.form-control-list {
+    max-width: 100%;
 }

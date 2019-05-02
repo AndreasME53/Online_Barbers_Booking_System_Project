@@ -10,7 +10,7 @@ namespace projectmain1._1
     public partial class Admin : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
+        {// the code below makes sure that the admin ,onces successfuling enters in the correct details, will always keeped them loged in. It is a session checker  
             try
             {
                 if (Session.Contents["Username"].ToString() == "" || Session.Contents["Username"] == null)
