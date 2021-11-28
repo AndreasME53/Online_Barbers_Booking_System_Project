@@ -1,6 +1,7 @@
 # A Simple Online Booking System For A Local Barber Shop
 
-This was a online beginner course project where I learned to make a web based booking system. 
+This was a online beginner course project where I learned to make a web based booking system.
+
 The document I made for the project to show the process and development of the [project]( https://github.com/AndreasME53/Online_Barbers_Booking_System_Project/blob/master/Documentation.pdf).
 
 
